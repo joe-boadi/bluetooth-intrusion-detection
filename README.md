@@ -49,9 +49,16 @@ To run this project locally, follow these steps:
         ```
 
 4. **Install the required packages:**
-    ```bash
+  ```bash
     pip install -r requirements.txt
-    ```
+```
+
+- Example
+
+```bash
+pip install pandas numpy scikit-learn matplotlib
+```
+  
 
 ## Usage
 
