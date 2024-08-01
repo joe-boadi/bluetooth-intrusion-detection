@@ -1,0 +1,7 @@
+Required packages are:
+1. Numpy library
+2. matplotlib
+3. scikit library
+4. pandas library
+4. Logic regression library
+5. csv library
