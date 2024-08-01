@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/bluetooth-intrusion-detection.git
+    git clone https://github.com/joe-boadi/Bluetooth-intrusion-detection.git
     cd bluetooth-intrusion-detection
     ```
 
