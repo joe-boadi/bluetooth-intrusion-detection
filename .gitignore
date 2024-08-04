@@ -5,3 +5,7 @@
 # Include all virtual env files
 *venv
 venv 
+
+# Ignore VS code settings and Python cache files
+.vscode/ 
+__pycache__
