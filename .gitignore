@@ -1,2 +1,7 @@
+# Include the csv files or dataset files
 *.csv
 .csv
+
+# Include all virtual env files
+*venv
+venv 
