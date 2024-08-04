@@ -1,3 +1,7 @@
+#NOTE: This
+## Run all codes and tests in virtual environment (venv)
+## First initialize and activate the virtual environment
+
 Required packages are:
 1. Numpy library
 2. matplotlib
