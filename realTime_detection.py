@@ -13,7 +13,7 @@ def simulate_real_time_data(num_samples=10):
             'time_of_day': np.random.uniform( low=0, high=24 )
         }
         yield sample
-        time.sleep(1)  # Simulate real-time data stream
+        time.sleep(2)  # Simulate real-time data stream
 
 def classify_connection(model, scaler, sample):
     sample_df = pd.DataFrame([sample])
