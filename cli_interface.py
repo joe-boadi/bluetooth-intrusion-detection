@@ -26,7 +26,7 @@ def cli_interaction():
         choice = input("Enter your choice: ")
         
         if choice == '1':
-            data = pd.read_csv('bluetooth_data.csv')
+            data = pd.read_csv('bluetooth_data2.csv')
             plot_data(data)
         elif choice == '2':
             # Simulate real-time data and classify
