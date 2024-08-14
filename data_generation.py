@@ -6,7 +6,7 @@ import random
 np.random.seed(42)
 
 # Parameters
-num_samples = 1000
+num_samples = 120000
 normal_ratio = 0.9  # 90% normal connections, 10% intrusions
 
 # Generate features
