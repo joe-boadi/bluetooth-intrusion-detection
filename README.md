@@ -28,6 +28,10 @@ This project demonstrates a simple approach to detecting Bluetooth intrusions in
 - Command-line interface (CLI) for user interaction.
 - Visualization of Bluetooth connections.
 
+![Criteria for intrusion](/code.png)
+
+- [Criteria for Intrusion
+
 ## Installation
 
 To run this project locally, follow these steps:
