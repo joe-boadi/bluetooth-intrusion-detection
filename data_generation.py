@@ -34,3 +34,9 @@ data = pd.DataFrame({
 
 # Save to CSV
 data.to_csv('bluetooth_data.csv', index=False)
+
+
+if is_intrusion:
+    connection_duration *= 1.5
+    signal_strength *= 0.8
+    data_transfer_rate *= 1.2
