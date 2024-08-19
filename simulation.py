@@ -2,8 +2,10 @@ import joblib
 import pandas as pd
 import numpy as np
 import time
-# from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+
+def block_intrusion(sample):
+    print(f"Block intrusion: {sample}")
 
 def load_model(file_name):
     model, scaler, feature_names = joblib.load(file_name)
@@ -45,6 +47,8 @@ def simulate_realtime_detection(model, scaler, feature_names, threshold=0.3):
             if probability > threshold:
                 print(f"ALERT: Potential unauthorized access detected! Confidence: {probability:.2f}")
                 print("Blocking the connection...")
+                # BLock Function to be invoked
+                block_intrusion(scaled_connection)
             else:
                 print(f"Normal connection detected. Confidence: {1-probability:.2f}")
             
