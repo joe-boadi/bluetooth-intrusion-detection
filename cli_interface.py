@@ -7,7 +7,7 @@ from model_training import model, scaler
 
 # Block an intrusion (simulated)
 def block_intrusion(sample):
-    print(f"Blocking intrusion: {sample}")
+    print(f"Block intrusion: {sample}")
     
 def plot_data(data):
     plt.figure(figsize=(10, 6))

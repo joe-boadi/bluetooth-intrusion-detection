@@ -3,7 +3,7 @@ import numpy as np
 
 def preprocess_data(file_path):
     data = pd.read_csv('bluetooth_data.csv')
-    print(f"NaN values in dataset:\n{data.isna().sum()}")
+    # print(f"NaN values in dataset:\n{data.isna().sum()}")
     
     # Remove rows with NaN values
     data_cleaned = data.dropna()

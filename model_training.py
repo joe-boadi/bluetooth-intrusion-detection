@@ -35,5 +35,5 @@ accuracy = accuracy_score(y_test, y_pred)
 precision = precision_score(y_test, y_pred)
 recall = recall_score(y_test, y_pred)
 
-print(f'Accuracy: {accuracy:.2f}')
+# print(f'Accuracy: {accuracy:.2f}')
 # print(f'Report: {classification_report:.2f}')
