@@ -2,7 +2,7 @@
 
 ## IoT Vulnerabilities: Case of Smart Watch
 
-This project aims to develop a basic system for detecting and flagging Bluetooth intrusions in smartwatches using machine learning. The system includes data generation, model training, real-time detection, and a command-line interface for interaction.
+This project aims to develop a basic system / module for detecting and flagging Bluetooth intrusions in smartwatches using machine learning. The system includes data generation, model training, real-time detection, and a command-line interface for interaction.
 After various experiments, an ROC Curve of 0.94 was achieved using Random Forest Model.
 
 ![Receiver Operations Characteristics](/output.png)
@@ -25,12 +25,12 @@ This project demonstrates a simple approach to detecting Bluetooth intrusions in
 - Simulated dataset for Bluetooth connections.
 - Logistic Regression and Random Forest model for intrusion detection.
 - Real-time detection script.
-- Command-line interface (CLI) for user interaction.
+- Command-line interface (CLI) for user interaction - for dev/engineers.
 - Visualization of Bluetooth connections.
 
 ![Criteria for intrusion](/condition.png)
 
-- [Criteria for Intrusion
+- [Criteria for Intrusion]
 
 ## Installation
 
