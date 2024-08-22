@@ -19,14 +19,14 @@ def generate_random_connection(feature_names):
 def display_connections(feature_names):
     # Generate some random connections for demonstration
     normal = [generate_random_connection(feature_names) for _ in range(50)]
-    anomalous = [generate_random_connection(feature_names) for _ in range(50)]
+    intrusion = [generate_random_connection(feature_names) for _ in range(50)]
     
     # Plot
     plt.figure(figsize=(10, 6))
     plt.scatter([x.iloc[0][0] for x in normal], [x.iloc[0][1] for x in normal], color='blue', label='Normal')
-    plt.scatter([x.iloc[0][0] for x in anomalous], [x.iloc[0][1] for x in anomalous], color='red', label='Anomalous')
-    plt.xlabel('Feature 1')
-    plt.ylabel('Feature 2')
+    plt.scatter([x.iloc[0][0] for x in intrusion], [x.iloc[0][1] for x in intrusion], color='red', label='Intrusion')
+    plt.xlabel('Time of Day')
+    plt.ylabel('Connection Duration')
     plt.title('Bluetooth Connections')
     plt.legend()
     plt.show()
